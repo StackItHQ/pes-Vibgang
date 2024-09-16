@@ -15,14 +15,14 @@ def authenticate_google_sheets():
     return service.spreadsheets()
 
 # Function to read data from the Google Sheet
-def get_sheet_data(sheet_range='Sheet1!A1:D'):
+def get_sheet_data(sheet_range='Sheet1!A1:D20'):
     service = authenticate_google_sheets()
     result = service.values().get(spreadsheetId=SHEET_ID, range=sheet_range).execute()
     rows = result.get('values', [])
     return rows
 
 # Function to write data to the Google Sheet
-def update_sheet_data(values, sheet_range='Sheet1!A1:D10'):
+def update_sheet_data(values, sheet_range='Sheet1!A1:D20'):
     service = authenticate_google_sheets()
     body = {
         'values': values
