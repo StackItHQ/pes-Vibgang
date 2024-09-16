@@ -1,12 +1,11 @@
 from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
-from db_utils import insert_data_to_db, fetch_data_from_db  # Import your new functions
+from db_utils import insert_data_to_db, fetch_data_from_db
 
 
-# Set the scope of the API we want to interact with
+# Set the scope of the API to interact with
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
-# Replace with your Google Sheet ID
 SHEET_ID = '1jzrUZr3PbOESxem7xWM1P4YU_L9D8Ly20WOQfnkTnTc'
 
 # Authenticate using the credentials.json file
@@ -54,5 +53,5 @@ def sync_db_to_sheet():
 
 # Example usage
 if __name__ == '__main__':
-    sync_sheet_to_db()  # Uncomment to sync from Sheets to DB
-    sync_db_to_sheet()  # Uncomment to sync from DB to Sheets
+    sync_sheet_to_db()
+    sync_db_to_sheet()
