@@ -62,7 +62,7 @@ All the best ✨.
 https://drive.google.com/file/d/1-GdwAA7XKOdpx5xQKU944Tl_7NKkZjWD/view?usp=sharing
 Here is the google drive link to my demonstration.
 
-# Due to some MacBook issues and a test, I was unable to submit it within the 6:30pm deadline, but I would really appreciate it if you still considered my solution and gave me feedback for it. Thank you :)
+### Due to some MacBook issues and a test, I was unable to submit it within the 6:30pm deadline, but I would really appreciate it if you still considered my solution and gave me feedback for it. Thank you :)
 
 Here is the process breakdown -
 
